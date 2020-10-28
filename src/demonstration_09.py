@@ -14,4 +14,4 @@ Notes:
 """
 def mapping(letters):
     # Your code here
-
+    pass

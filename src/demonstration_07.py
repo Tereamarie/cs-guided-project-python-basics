@@ -14,3 +14,4 @@ Examples:
 def nth_smallest(lst, n):
     # Your code here
 
+    pass
