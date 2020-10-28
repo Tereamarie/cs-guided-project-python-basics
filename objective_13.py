@@ -9,6 +9,7 @@ class Animal:
     kind = ""
     color = ""
     
+    
     def description(self):
         return "%s is a %s %s." % (self.name, self.color, self.kind)
 
@@ -16,7 +17,14 @@ class Animal:
 # as described above.
 
 # YOUR CODE HERE
-
+cat = Animal()
+cat.name = "Purrfect"
+cat.kind = "cat"
+cat.color = "brown"
+dog = Animal()
+dog.name = "Fido"
+dog.kind = "dog"
+dog.color = "black"
 
 # Should print Purrfect is a brown cat.
 print(cat.description())
