@@ -7,9 +7,10 @@ phonebook = {
     "Bill": 7659803241,
     "Barry": 6573214789
 }
-
+phonebook["Herb"] = 7653420789
+phonebook.pop("Bill")
 # YOUR CODE HERE
-
+print(phonebook)
 
 # Should print Herb is in the phonebook.
 if "Herb" in phonebook:
