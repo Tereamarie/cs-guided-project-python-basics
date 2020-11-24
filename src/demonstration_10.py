@@ -4,9 +4,9 @@ Challenge #10:
 Create a function that applies a discount d to every number in the list.
 
 Examples:
-- get_discounts([2, 4, 6, 11], "50%") ➞ [1, 2, 3, 5.5]
-- get_discounts([10, 20, 40, 80], "75%") ➞ [7.5, 15, 30, 60]
-- get_discounts([100], "45%") ➞ [45]
+print(get_discounts([2, 4, 6, 11], "50%")) # ➞ [1, 2, 3, 5.5]
+print(get_discounts([10, 20, 40, 80], "75%")) # ➞ [7.5, 15, 30, 60]
+print(get_discounts([100], "45%")) # ➞ [45]
 
 Notes:
 - The discount is the percentage of the original price (i.e the discount of
@@ -16,3 +16,6 @@ Notes:
 def mapping(letters):
     # Your code here
     pass
+print(get_discounts([2, 4, 6, 11], "50%")) # ➞ [1, 2, 3, 5.5]
+print(get_discounts([10, 20, 40, 80], "75%")) # ➞ [7.5, 15, 30, 60]
+print(get_discounts([100], "45%")) # ➞ [45]

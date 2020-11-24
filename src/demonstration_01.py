@@ -10,7 +10,7 @@ print(addition(7, 3)) ➞ 10
 """
 def addition(a, b):
     # Your code here
-    pass
+  
     sum = a + b
     return sum
 print(addition(3, 2)) #➞ 5
